@@ -113,12 +113,12 @@ log-level: WARNING
 # Possible values (from most to least verbose) are DEBUG, INFO,
 # NOTICE, WARNING, ERROR, CRITICAL, ALERT, EMERGENCY.
 
-front-page: Front Page
+front-page: README
 # specifies which wiki page is to be used as the wiki's front page.
 # Gitit creates a default front page on startup, if one does not exist
 # already.
 
-no-delete: Front Page, Help
+no-delete: README, Help
 # specifies pages that cannot be deleted through the web interface.
 # (They can still be deleted directly using git or darcs.)
 # A comma-separated list of page names.  Leave blank to allow
